@@ -1,1 +1,3 @@
-SELECT * FROM people WHERE state_code = 'CA'
+SELECT * 
+FROM people 
+WHERE state_code = 'CA'
