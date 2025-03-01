@@ -1,1 +1,1 @@
-SELECT 'Helllo'
+SELECT `first_name` FROM people
