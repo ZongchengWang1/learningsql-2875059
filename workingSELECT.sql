@@ -1,1 +1,1 @@
-SELECT `first_name` FROM people
+SELECT first_name,last_name,state_code,company FROM people
