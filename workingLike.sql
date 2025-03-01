@@ -1,3 +1,3 @@
 SELECT * 
 FROM people 
-WHERE state_code LIKE 'C%'
+WHERE state_code LIKE '%N'
