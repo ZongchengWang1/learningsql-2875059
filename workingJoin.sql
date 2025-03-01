@@ -1,9 +1,4 @@
--- SELECT *
--- FROM people
--- JOIN states ON people.state_code = state_abbrev
--- WHERE people.first_name LIKE 'J%' AND states.region = 'South'
-
 SELECT *
-FROM people,states
-ON people.state_code = state_abbrev
-WHERE people.first_name LIKE 'J%' AND states.region = 'South'
+FROM people ppl,states st
+ON ppl.state_code = st.state_abbrev
+WHERE ppl.first_name LIKE 'J%' AND st.region = 'South'
